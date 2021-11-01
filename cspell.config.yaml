@@ -1,0 +1,22 @@
+version: "0.2"
+ignorePaths: []
+dictionaryDefinitions: []
+dictionaries: []
+words:
+  - ASUS
+  - EACCES
+  - fdisk
+  - findstr
+  - flac
+  - mkdir
+  - NTFS
+  - Packt
+  - Packtpub
+  - placemark
+  - Pluralsight
+  - realised
+  - timeframes
+  - tskill
+  - UEFI
+ignoreWords: []
+import: []
