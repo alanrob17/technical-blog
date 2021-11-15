@@ -43,4 +43,3 @@ Reboot the VM.
 If you can use the "Quick Create" option in Windows 10 Hyper-V, I believe you'll get a better experience and the ability to adjust the resolution on the fly. It doesn't seem that you can configure a manual install to do this.
 
 **Note:** I had to reboot a couple of times before my resolution changed.
-
