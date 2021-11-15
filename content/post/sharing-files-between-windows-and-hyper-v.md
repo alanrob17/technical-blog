@@ -42,11 +42,9 @@ Now we need to access this folder on our virtual Linux machine.
 
 ## Guest and Host networking
 
-On our Linux server both the guest and host must be on the same network. We use the Default Switch option on Hyper-V to allow this to happen.
+On our Linux server both the guest and host must be on the same network for SMB/CIFS file sharing to work. We use the Default Switch option on Hyper-V to allow this to happen.
 
 ![Default Switch settings](/images/default-switch.jpg "Default Switch settings")
-
-It is important to note that both the host and guest must be on same network for SMB/CIFS file sharing to work.
 
 ### Mounting the Shared Folder on Guest
 
