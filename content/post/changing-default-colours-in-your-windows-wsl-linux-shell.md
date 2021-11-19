@@ -4,9 +4,8 @@ description: Changing the default WSL console colours.
 date: 2021-11-02T16:41:12+11:00
 draft: false
 categories: 
-    - "Programming"
-tags: 
     - "Linux"
+tags: 
     - "WSL"
     - "Bash"
 ---

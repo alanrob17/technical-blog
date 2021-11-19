@@ -12,7 +12,7 @@ tags:
 
 One of the shortcomings I find with Hyper-V is that it isn't easy to copy files from Windows into my Hyper-V virtual environment.
 
-I have found a quick and easy method to share a virtual WIndows folder with Hyper-V and will describe how to set this up.
+I have found a quick and easy method to share a virtual Windows folder with Hyper-V and will describe how to set this up.
 
 ## Starting a file share
 
@@ -48,7 +48,7 @@ On our Linux server both the guest and host must be on the same network for SMB/
 
 ### Mounting the Shared Folder on Guest
 
-In your guest OS open a terminal an add the following command.
+In your guest OS open a terminal and add the following command.
 
 ```bash
     sudo apt install cifs-utils
@@ -70,7 +70,7 @@ The user is your Windows user and you will need to add credentials to be able ac
 
 If this has been completed successfully you should see the *share* folder on your Linux desktop.
 
-**Note:** you will only be able to add files to this folder using administrator privileges.
+**Note:** in Linux you will only be able to add files to this folder using administrator privileges.
 
 Also be aware that this command is only temporary. Each time you run your machine you will have to run the ``mount`` command to be able to share files.
 

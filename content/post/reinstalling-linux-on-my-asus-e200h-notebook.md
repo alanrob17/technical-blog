@@ -4,9 +4,9 @@ description: Installing Linux on my ASUS E200h Notebook.
 date: 2020-02-13T18:40:14+10:00
 draft: false
 categories:
-    - "Programming"
-tags:
     - "Linux"
+tags:
+    - "Hardware"
 ---
 
 Creating a new installation of Linux on my notebook is a fairly complex process so these notes describe the whole process.

@@ -4,9 +4,9 @@ description: Using USB drives in Linux.
 date: 2020-02-12T17:59:30+10:00
 draft: false
 categories:
-  - "Programming"
-tags:
   - "Linux"
+tags:
+  - "Hardware"
 ---
 
 Mint usually works with NTFS USB drives but if you can't see the drive you can **mount** it yourself.
