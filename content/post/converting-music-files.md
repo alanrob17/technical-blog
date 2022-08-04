@@ -1,7 +1,7 @@
 ---
 title: "Converting Music Files"
 description: Converting .ISO music files to Flac format.
-date: 2019-10-20T11:10:33+10:00
+date: 2022-08-04T11:10:33+10:00
 draft: false
 tags: 
     - "FLAC"
@@ -29,3 +29,16 @@ I have found one method of converting from ``.dff`` to high quality Flac that wo
 
 I am back a square one with no method of converting to Flac but at least I can play ``.iso`` files in Foobar for the time being.
 
+## Added notes
+
+I ended up buying *DBPowerAmp* which was the software I mentioned above. I am now able to convert ``.dff`` files into high quality Flac files using the *Music Converter*.
+
+### Usage notes
+
+Convert the Audio DVD ``.iso`` to .dff files using *Sonore* as described above.
+
+In *DBPowerAmp* click on *Music Converter* and select the ``.dff`` files you want to convert and the following screen appears.
+
+![Music Converter](/images/music-converter.jpg "Music Converter")
+
+Click ``Convert>>`` and it takes seconds to convert the files into uncompressed Flac files.
