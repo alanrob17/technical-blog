@@ -1,6 +1,6 @@
 ---
 title: "Displaying Markdown Files"
-description: Displaying Mardown in a browser.
+description: Displaying Markdown in a browser.
 date: 2019-10-21T11:24:45+10:00
 draft: false
 categories: 
