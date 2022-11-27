@@ -57,9 +57,9 @@ I got a TypeScript error on the last line of code for the ``celsius`` variable.
 
 I went to the Mozilla Developer Network website to read about ``toFixed()`` and found that while it worked on a **number** variable it returned a **string** value. This is another of those JavaScript gotchas that will catch an unwary developer.
 
-If I was writing this code in JavaScript I probably wouldn't notice that the ``celsius`` variable's type had changed but as I am working in TypeScript it catches this issue.
+If I was writing this code in JavaScript I probably wouldn't notice that the ``celsius`` variable's type had changed but as I am working in TypeScript it catches this type change.
 
-There are a couple of ways that I can get around this issue.
+There are a couple of ways that I can get around this problem.
 
 ```typescript
     let printOutput = (fahrenheit: number, celsius: string) => {
