@@ -127,7 +127,7 @@ Will search all ``.py`` files for the words **rating** or **artist**. Once again
 
 #### Disc volumes
 
-This function produces a nice report of the status of all your PC's disc drives.
+This function produces a nice report on the status of all your systems disc drives.
 
 ```powershell
     function df {
@@ -163,4 +163,4 @@ Now, to run a script.
 
 There are an unlimited number of ways you can improve your Powershell environment and you should change your environment to suit your particular needs.
 
-One thing I haven't mentioned in this article is that you there are a number of things you can do to change your command prompt and colour themes in your terminal. I'll leave this up to you to explore.
+One thing I haven't mentioned is that there are a number of things you can do to change the command prompt and colour themes in your terminal. I'll leave this up to you to explore.
