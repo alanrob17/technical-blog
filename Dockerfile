@@ -2,7 +2,8 @@
 FROM alpine:latest AS build
 
 # Set Hugo version
-ARG HUGO_VERSION=0.121.1
+#ARG HUGO_VERSION=0.121.1
+ARG HUGO_VERSION=0.124.0
 
 # Install necessary packages
 RUN apk add --no-cache wget tar libc6-compat libstdc++

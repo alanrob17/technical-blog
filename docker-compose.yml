@@ -1,5 +1,3 @@
-version: '3.4'
-
 services:
   hugo-nginx:
     command: ["nginx", "-g", "daemon off;"]

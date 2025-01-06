@@ -20,13 +20,13 @@ Once my containers are up and running I can't use Azure Cosmos DB Emulator becau
 
 ![Port conflict](/images/ports.jpg "Port conflict")
 
-## Why This Is a Problem
+## Why this is a Problem
 
-Host Port Availability: The Azure Cosmos DB Emulator attempts to bind to port 8081 on your local machine. Since your Docker container has already bound that port for its own use, the emulator cannot access it.
+**Host Port Availability:** The Azure Cosmos DB Emulator attempts to bind to port 8081 on your local machine. Since your Docker container has already bound that port for its own use, the emulator cannot access it.
 
-Container vs. Host: While services inside a Docker container can communicate freely with each other using their internal ports, any ports exposed to the host must be unique and available for any application trying to bind to them directly on the host.
+**Container vs. Host:** While services inside a Docker container can communicate freely with each other using their internal ports, any ports exposed to the host must be unique and available for any application trying to bind to them directly on the host.
 
-The obvious fix is to change this port mapping.
+The fix is to change the host 8081 port mapping.
 
 {{< highlight bash >}}
  ports:
@@ -42,7 +42,7 @@ To.
       - "8082:8081"
 {{< / highlight >}}
 
-Another method would be to change the Port Used by Azure Cosmos DB Emulator:
+Another method would be to change the port used by Azure Cosmos DB Emulator:
 
 If possible, configure the Azure Cosmos DB Emulator to use a different port instead of 8081. Refer to its documentation for instructions on how to change its default ports.
 
