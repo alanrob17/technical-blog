@@ -17,3 +17,6 @@ Desktop.ini
 
 # Spelling
 cspell.config.yaml
+
+# my options
+*.bak
